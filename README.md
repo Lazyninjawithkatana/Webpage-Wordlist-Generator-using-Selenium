@@ -18,6 +18,6 @@ Filters words that are at least 3 characters long and only contain letters.
 Saves the extracted words into a file
 
 Example Use Cases
-Pentesting: Use extracted wordlists for Gobuster, dirb, or other brute-force tools.
+Pentesting: Use extracted wordlists for Gobuster, dirb, or other brute-force tools. (gobuster dir -u https://example.com -w wordlist_example.com.txt -x html,php,js,txt -t 50 -o gobuster_results.txt)
 SEO & Analysis: Extract keywords from competitor websites.
 Data Collection: Gather words for NLP, AI, or automation tasks.
